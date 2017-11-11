@@ -1,0 +1,74 @@
+/* TODO html*/
+
+#totolist{
+	text-align: center;
+}
+
+.main-content{
+	border:1px solid #2e8ac9;
+	border-radius:10px;
+    text-align:center;
+    width:80%;
+    margin:auto;
+}
+
+
+.main-content img{
+	width:100%;
+}
+
+.main-content table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.main-content th, .main-content td {
+    text-align: left;
+    padding: 8px;
+}
+
+.main-content tr:nth-child(even){background-color: #f2f2f2}
+
+.arrow{
+	text-align:center;
+}
+
+.arrow button{
+    font-size: 35px;
+    background-color: white;
+    cursor: pointer;
+    border:none;
+}
+
+.panel h5{
+	background-color: #2e8ac9;
+	padding:5px;
+	color:white;
+}
+
+.panel label{
+	text-align: left;
+}
+
+.main-content tr:hover {background-color: #ddd;}
+
+.main-content th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.form-control label{
+    float:left;
+    margin-top:10px;
+    width:65%;
+    text-align: right;
+}
+
+.form-control #term{
+    width:32%;
+    float:left;
+}
+

@@ -1,0 +1,23 @@
+
+#userdata{
+	text-align: center;
+}
+
+#userdata .card{
+	text-align: center;
+	border:1px solid #e6d2d2;
+	border-radius:2px;
+	padding:5px;
+}
+#userdata .card img{
+	width:90px;
+}
+
+#userdata .card th, td{
+	border-bottom: 1px solid #ddd;
+	padding:5px;
+}
+#userdata .card table{
+	font-size: 12px;
+	text-align:left;
+}
