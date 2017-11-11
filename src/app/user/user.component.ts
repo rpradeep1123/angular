@@ -10,8 +10,8 @@ import { Router } from '@angular/router';
 })
 export class UserComponent implements OnInit {
 
-  private userData=[];
-  private errorData;
+  public userData=[];
+  public errorData;
   constructor(private _userservice : UserserviceService,private _router:Router) { }
 
   ngOnInit() {

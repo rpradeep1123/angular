@@ -9,11 +9,12 @@ import { UserserviceService } from '../userservice.service';
 })
 export class TodoComponent implements OnInit {
 
+  public searchTerm;
   private userId:any;
-  private name:string;
-  private todoResponse=[];
+  public name:string;
+  public todoResponse=[];
   private statusList=[];
-  private errorData;
+  public errorData;
   private showUpdate:boolean;
   private updateData=[];
   constructor(private route:ActivatedRoute,private _userservice:UserserviceService,private _router:Router) { }
